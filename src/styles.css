@@ -1,0 +1,71 @@
+/* src/styles.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1lkmP6.img'); 
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+html, body {
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header, footer {
+  background-color: #ab9d9d;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.feedback {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feedback > div {
+  margin: 10px 0;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+button.like {
+  background-color: green;
+  color: white;
+}
+
+button.dislike {
+  background-color: red;
+  color: white;
+}
+
+button.reset {
+  background-color: blue;
+  color: white;
+}
